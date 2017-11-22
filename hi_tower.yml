@@ -1,0 +1,9 @@
+---
+- name: Enterprise Linux Server
+  hosts: all
+ 
+  tasks:
+ 
+  - name: EL6
+    shell: echo "Hi! Tower is working."
+...
